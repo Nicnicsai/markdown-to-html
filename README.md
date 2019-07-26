@@ -40,7 +40,6 @@
 		<li>Diving & Freediving </li>
 		<li>Movies</li>
 	
-		<ul>
 		<li>Drama</li>
 		<li>Comedy</li>
 		<li>Guardians of the Galaxy </li>
