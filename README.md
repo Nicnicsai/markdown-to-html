@@ -2,7 +2,7 @@
 <html lang="en"> 
 
 <head>
-
+	<title> Nicole </title>
 
 </head>
 
@@ -38,11 +38,11 @@
 	<ul>
 		<li>Design</li>
 		<li>Diving & Freediving </li>
-		<li>Movies</li>
-	
+		<li>Movies
+	<ul>
 		<li>Drama</li>
 		<li>Comedy</li>
-		<li>Guardians of the Galaxy </li>
+		<li>Guardians of the Galaxy </li> </ul>
 	</ul>
 
 <h4> You can always count on me when you don't understand something or just want to have a good laugh. </h4>
