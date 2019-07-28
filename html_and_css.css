@@ -1,19 +1,190 @@
-ody {
-    margin: 60px auto;
-    width: 70%;
+body { background-color: rgb(254,191,193);
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.navbar {padding: none;
+text-align: center;
+font-family: Proxima Nova, sans-serif;
+font-size: 30px;
+    color: deeppink;
+    background-color: none;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    margin-bottom: 10px;
+
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.grids {
+  display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px, auto);
+
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.Gender {    color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    grid-column: 1;
+    grid-row: 1 / 2 ;
 }
-a:hover {
+
+.Gender:hover {background-color: deeppink;
+}
+
+.Placeofbirth {    color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+
+.Placeofbirth:hover {background-color: deeppink;
+}
+.Favoritecolor {color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    grid-column: 1;
+    grid-row: 3 / 4;
+}
+.Favoritecolor:hover {background-color: deeppink;
+}
+
+.image { color: deeppink;
+    background-color: none;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+}
+
+img {border-radius: 25px;}
+
+
+.Favoritefood {color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;}
+
+.Favoritefood:hover {background-color: deeppink;
+}
+
+.Passport {color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;}
+
+.Passport:hover {background-color: deeppink;
+}
+
+.Pineappleonpizza {color: deeppink;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid deeppink;
+    border-radius: 25px;}
+
+.Pineappleonpizza:hover {background-color: deeppink;
+}
+
+
+.quote1 {
+
+    color: deeppink;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    border-left: 3px solid deeppink;
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+
+
+.hobbies {color: deeppink;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+    grid-column: 1;
+    grid-row: 5/7;
+}
+
+.Hobbies:hover {background-color: deeppink;
+}
+
+.quote2 {
+    color: deeppink;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    border-left: 3px solid deeppink;
+    grid-column: 2 / 4;
+    grid-row: 5;
+}
+
+.links {
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    grid-column: 2 / 3;
+    grid-row: 6;
+    color: blue;
+}
